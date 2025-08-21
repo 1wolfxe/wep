@@ -1,0 +1,100 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0px;
+    background-color: #cccccc;
+    color: #000000;
+}
+header, footer {
+    background-color: #575757c4;
+    color: rgb(179, 163, 27);
+    padding: 2rem 3rem;
+    text-align: center;
+    border-color: rgb(0, 0, 0);
+    box-shadow: #333 0px 5px 10px;
+}
+.int h2 {
+    color: #1b1b1b;
+    font-size: 50px;
+    margin-bottom: 20px;
+    border: #000000 1px solid;
+    display: grid;
+    padding: 10px;
+    text-align: center;
+}
+.int ul li
+ { 
+    border: #000000 1px solid;
+    padding: 15px;
+    font-size: x-large;
+    color: #000000;
+    margin:20px;
+    display: grid;
+    gap: 8px;
+}
+
+.det h2 {
+    color: #1b1b1b;
+    font-size: 50px;
+    margin-bottom: 20px;
+    border: #000000 1px solid;
+    display: grid;
+    padding: 10px;
+    text-align: center;
+}
+.det table {
+    width: 90%;
+    border-color: #000000;
+    border-style: solid;
+    margin: 40px;
+    padding: 1px;
+    font-size: larger;
+    text-align: center;
+}
+.det table th, .det table td {
+    border: 1px solid #000000;
+    padding: 10px;
+    font-size: large;
+}
+.det a {
+    color: #000000;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 5px;
+}
+.det a:hover {
+    background-color: #575757c4;
+    color: #dbc500;
+}
+.vid h2 {
+    color: #1b1b1b;
+    font-size: 50px;
+    margin-bottom: 20px;
+    border: #000000 1px solid;
+    display: grid;
+    padding: 10px;
+    text-align: center;
+}
+.vid video {
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: #333 0px 5px 10px;
+    display: grid;
+    justify-self: center;
+    margin: 20px auto;
+}
+footer a {
+    color: #fffffe;
+    text-decoration:dotted;
+    padding: 8px;
+}
+footer a:hover {
+    color: #dbc500;
+    text-decoration: underline;
+    background-color: #333;
+    border-radius: 4px;
+    box-shadow: #000 0px 2px 5px;
+    transition: background-color 0.3s ease;
+}
+/* @1wolfxe

@@ -1,0 +1,111 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0px;
+    background-color: #bdbdbd;
+    color: #ffffff;
+}
+h1 {
+    color: #a78800;
+    font-size: 50px;
+}
+header, footer {
+    background-color: #575757c4;
+    color: rgb(121, 99, 0);
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    border-color: rgb(0, 0, 0);
+    box-shadow: #333 0px 5px 10px;
+    display: -ms-inline-grid;
+}
+header a {
+    color: #aa8b00;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 5px;
+
+}
+
+.super img {
+    width: 40% line-height 1.5;
+    height: auto;
+    border-radius: 16px;
+    padding: 8px;
+}
+.super p {
+    font-size: 20px;
+    color: #000000;
+    border: #000000 0.5px solid;
+    padding: 8px;
+    border-radius: 5px;
+    display: flex;
+    margin: 10px;
+    width: 50%;
+    direction: rtl; 
+    box-shadow: #818080 0px 5px 10px;
+}
+
+.update {
+    background-color: #c0c0c0;
+    border-color: #7a7979;
+    padding: 20px;
+    border-radius: 10px;
+    display: block;
+    max-width: 500px;
+    box-shadow: #333 0px 5px 10px;
+
+}
+.update form :hover {
+    background-color: #696969;
+    color: #ffffff;
+    border-color: #cecece;
+    box-shadow: #646464 0px 5px 10px;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 10px;
+}
+.update form input[type="text"],.update form input[type="email"],.update form input[type="password"] 
+{
+    width: 90%;
+    padding: 8px;
+    margin: 10px ;
+    border: 1px solid #f8c9c9;
+    border-radius: 5px;
+}
+.update button {
+    background-color: #00993bc4;
+    color: white;
+    padding: 10px 15px;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.update button:hover {
+    background-color: #aa9902;
+}
+footer {
+    font-size: 20px;
+    color: #dbc500;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #575757c4;
+    box-shadow: #333 0px 5px 10px;
+    display: grid;
+    margin-top: 20px;
+}
+header a:hover {
+    color: #ffffff;
+    box-shadow: #000000 0px 5px 10px;
+    transition: color 0.3s ease;
+    transform: scale(1.05);
+    background-color: #575757c4;
+    cursor: pointer;
+    border: #333 1px solid;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 10px;
+    gap: 1px;
+}
+/* @1wolfxe

@@ -1,0 +1,128 @@
+body
+{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0px;
+    background-color: #cccccc;
+    color: #000000;
+}
+header, footer {
+    background-color: #575757c4;
+    color: rgb(179, 163, 27);
+    padding: 2rem 3rem;
+    text-align: center;
+    border-radius: 10px;
+    border-color: rgb(0, 0, 0);
+    box-shadow: #333 0px 5px 10px;
+}
+footer p {
+    color: #dbc500;
+    text-decoration: none;
+}
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 8px;
+}
+.int h2 {
+    color: #1b1b1b;
+    font-size: 50px;
+    margin-bottom: 20px;
+    border: #000000 1px solid;
+    display: grid;
+    padding: 10px;
+    text-align: center;
+}
+.int p {
+    font-size: 20px;
+    color: #000000;
+    margin: 10px;
+    padding: 8px;
+}
+.for h3 {
+    color: #1b1b1b;
+    font-size: 30px;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+}
+.for form {
+    background-color: #c0c0c0;
+    border-color: #7a7979;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: #333 0px 5px 10px;
+    display: grid;
+    max-width: 500px;
+    padding: 90px;
+    justify-self: center;
+}
+.for form input[type="text"], .for form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: larger;
+}
+.for form label {
+    margin-bottom: 10px;
+    color: #0e0c0c;
+}
+.for form button {
+    background-color: #00993bc4;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.for form button:hover {
+    background-color: #aa9902;
+}
+.inf h3 {
+    color: #1b1b1b;
+    font-size: 30px;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+}
+.inf p {
+    font-size: 20px;
+    color: #000000;
+    margin: 10px;
+    padding: 8px;
+    text-align: center;
+}
+.for textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+}
+.for label {
+    margin-bottom: 10px;
+    color: #0e0c0c;
+    font-size: 20px;
+}
+header a:hover {
+    background-color: #9c9200;
+    color: #ffffff;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: inset #646464 0px 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+header nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+header h1 {
+    
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+/* @1wolfxe

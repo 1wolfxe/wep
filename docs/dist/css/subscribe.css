@@ -1,0 +1,95 @@
+body
+{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0px;
+    background-color: #cccccc;
+    color: #ffeded;
+    
+}
+
+h1 {
+    color: #dbc500;
+    font-size: 50px;
+}
+header ,footer  {
+    background-color: #575757c4;
+    color: rgb(8, 8, 8);
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 10px;
+    border-color: rgb(0, 0, 0);
+    box-shadow: #333 0px 5px 10px;
+}
+form {
+    margin: 50px auto;
+    background-color: #9b9898;
+    border-color: #7a7979;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: #333 0px 5px 10px;
+    justify-self: center;
+    display: grid;
+    box-sizing:set 1px solid #ccc;
+    max-width: 500px;
+
+}
+
+form input[type="text"] , form input[type="email"],form input[type="password"] {
+    width: 100%;
+    padding: 10px ;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+form label {
+    margin-bottom: 1px;
+    color: #0e0c0c;
+}
+form button {
+    background-color: #00993bc4;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #aa9902;
+}
+from .checkbox {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+header a {
+    color: #000;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: larger;
+    background-color: #b4b4b4;
+}
+header a:hover {
+    background-color: #ddd;
+      color: #ffffff;
+    box-shadow: #000000 0px 5px 10px;
+    transition: color 0.3s ease;
+    transform: scale(1.05);
+    background-color: #575757c4;
+    cursor: pointer;
+    border: #333 1px solid;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 10px;
+    gap: 1px;
+
+}
+footer p {
+    font-size: 20px;
+    color: #dbc500;
+}
+/* @1wolfxe
