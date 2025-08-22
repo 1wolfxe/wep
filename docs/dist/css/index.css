@@ -168,7 +168,7 @@ ul li {
     border-radius: 10px;
     gap: 1px;
 }
-.bet button
+.bet a
 {
     outline: #1a1a1a;
     background-color: #333;
@@ -177,9 +177,10 @@ ul li {
     border: none;
     border-radius: 8px;
     cursor: pointer;
+    text-decoration: none;
 }
 
-.bet button:hover {
+.bet a:hover {
     background-color: #aa9902;
 }
 
